@@ -1,0 +1,31 @@
+body{
+  background-color: #a4e4ea;
+}
+h1{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px
+}
+#memory_board{
+  background-color: #ccc;
+  width: 532px;
+  height: 540px;
+  padding: 24px;
+  margin: auto;
+  border: 2px solid #b7b6b6;
+  border-radius: 50px;
+}
+#memory_board >div{
+  width: 71px;
+  height: 71px;
+  float: left;
+  margin:10px;
+  padding: 20px;
+  border:1px solid #000;
+  font-size: 64px;
+  cursor: pointer;
+  text-align: center;
+  background-image: url(black-box.jpg);
+  border-radius: 20px;
+
+}
